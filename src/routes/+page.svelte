@@ -21,12 +21,12 @@
   const start = () => {
     startTime = Date.now();
     state = STATE.RUNNING;
-    interval = setInterval(() => {
+    interval = Number(setInterval(() => {
       if (state === STATE.RUNNING) {
         const endTime = Date.now();
         elapsedTime = endTime - startTime + oldElapsedTime;
       }
-    });
+    },));
   };
 
   const reset = () => {
@@ -101,4 +101,4 @@
 <button class="transition mt-8 bg-black text-neutral-700 w-40 py-1 text-base leading-relaxed rounded-lg font-bold border border-neutral-700 hover:text-white hover:border-white" on:click={reset}>Reset</button>
 {/if}
 
-<p class="mt-24 text-sm font-normal text-center">© 2023 CheeseGrater<br/><a href="/colophon" class="text-blue-500 hover:underline">Colophon</a></p>
+<p class="mt-24 text-sm font-normal text-center">© 2023 CheeseGrater<br/><a href="https://github.com/IncogNEET/StopWatch" class="text-blue-500 hover:underline">GitHub</a> | <a href="/colophon" class="text-blue-500 hover:underline">Colophon</a></p>

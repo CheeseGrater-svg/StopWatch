@@ -14,8 +14,10 @@
 <h2 class="text-base font-medium leading-relaxed">Colophon</h2>
 
 <section class="mt-12 text-sm font-normal sm:max-w-md w-3/4 leading-relaxed">
-  <p>This website is desgined and developed by CheeseGrater in Japan.</p>
-  <p class="mt-4">It is built using <a href="https://code.visualstudio.com" class="text-blue-500 hover:underline">VS Code</a>, statically generated through <a href="https://kit.svelte.dev" class="text-blue-500 hover:underline">SvelteKit</a>, and deployed using <a href="https://vercel.com" class="text-blue-500 hover:underline">Vercel</a>. It is designed in <a href="https://www.figma.com" class="text-blue-500 hover:underline">Figma</a> and the type is set in <a href="https://fonts.google.com/specimen/Inter" class="text-blue-500 hover:underline">Inter by Rasmus Andersson</a>.</p>
+  <p>This website was designed and developed by CheeseGrater in Japan.</p>
+  <p class="mt-4">It is built using <a href="https://code.visualstudio.com" class="text-blue-500 hover:underline">VS Code</a> with <a href="https://kit.svelte.dev" class="text-blue-500 hover:underline">SvelteKit</a> as the framework and <a href="https://tailwindcss.com" class="text-blue-500 hover:underline">TailwindCSS</a> as the front end, and deployed using <a href="https://vercel.com" class="text-blue-500 hover:underline">Vercel</a>.</p>
+  <p class="mt-4">It is designed in <a href="https://www.figma.com" class="text-blue-500 hover:underline">Figma</a> and the type is set in <a href="https://fonts.google.com/specimen/Inter" class="text-blue-500 hover:underline">Inter by Rasmus Andersson</a>.</p>
+  <p class="mt-4">The source code can be found in this <a href="https://github.com/IncogNEET/StopWatch" class="text-blue-500 hover:underline">GitHub repository</a>.</p>
 </section>
 
 <p class="mt-24">Thanks for visiting!</p>
