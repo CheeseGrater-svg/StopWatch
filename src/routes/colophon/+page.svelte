@@ -5,7 +5,7 @@
 
 <a href="../">
 	<div class="relative mt-16">
-		<img src={icon} alt="watch icon" class="peer relative z-10 box-content w-24 p-2" />
+		<img src={icon} alt="watch icon" class="h- peer relative z-10 box-content h-[84px] w-24 p-2" />
 		<div
 			class="absolute inset-0 z-0 rounded-3xl bg-gradient-to-r from-cyan-500 to-fuchsia-500 opacity-50 blur-xl"
 		/>
