@@ -133,7 +133,7 @@
 	>
 {/if}
 
-<p class="mt-24 text-center text-sm font-normal">
+<p class="mt-24 mb-12 text-center text-sm font-normal">
 	© 2023 IncogNEET<br />
 	<a href="https://github.com/IncogNEET/StopWatch" class="text-blue-500 hover:underline">GitHub</a>
 	| <a href="/colophon" class="text-blue-500 hover:underline">Colophon</a>
