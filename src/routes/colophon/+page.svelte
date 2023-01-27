@@ -15,7 +15,7 @@
 <a href="../"><h1 class="mt-6 text-5xl font-black leading-none">StopWatch</h1></a>
 <h2 class="text-base font-medium leading-relaxed">Colophon</h2>
 
-<section class="mt-12 w-3/4 text-sm font-normal leading-relaxed sm:max-w-md">
+<section class="mt-12 w-3/4 text-sm font-normal leading-relaxed text-neutral-500 sm:max-w-md">
 	<p>This website was designed and developed by IncogNEET in Japan.</p>
 	<p class="mt-4">
 		It is built using <a href="https://code.visualstudio.com" class="text-blue-500 hover:underline"
@@ -47,7 +47,7 @@
 <div class="relative mt-4">
 	<img src={soyjacks} alt="two soyjacks pointing svelte" class="relative z-10 w-56 rounded-xl" />
 	<div
-		class="absolute inset-0 z-0 rounded-3xl bg-gradient-to-r from-cyan-500 to-fuchsia-500 opacity-50 blur-xl"
+		class="absolute inset-0 z-0 rounded-3xl bg-gradient-to-r from-cyan-500 to-fuchsia-500 opacity-75 blur-xl"
 	/>
 </div>
 <p class="mt-4 mb-12">❤️</p>
