@@ -64,7 +64,7 @@
 	/>
 </div>
 
-<h1 class="mt-6 text-5xl font-black leading-none">StopWatch</h1>
+<h1 class="mt-6 text-center text-5xl font-black leading-tight">StopWatch</h1>
 <h2 class="text-base font-medium leading-relaxed">Coolest Web Stopwatch</h2>
 
 <div class="relative mt-16">
@@ -133,7 +133,7 @@
 	>
 {/if}
 
-<p class="mt-24 mb-12 text-center text-sm font-normal text-neutral-500">
+<p class="mt-24 mb-12 text-center font-normal text-neutral-500">
 	© 2023 IncogNEET<br />
 	<a href="https://github.com/IncogNEET/StopWatch" class="text-blue-500 hover:underline">GitHub</a>
 	| <a href="/colophon" class="text-blue-500 hover:underline">Colophon</a>

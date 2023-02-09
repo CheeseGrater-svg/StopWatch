@@ -12,19 +12,19 @@
 	</div>
 </a>
 
-<a href="../"><h1 class="mt-6 text-5xl font-black leading-none">StopWatch</h1></a>
+<a href="../" class="text-center"
+	><h1 class="mt-6 text-5xl font-black leading-none">StopWatch</h1></a
+>
 <h2 class="text-base font-medium leading-relaxed">Colophon</h2>
 
-<section class="mt-12 w-3/4 text-sm font-normal leading-relaxed text-neutral-500 sm:max-w-md">
+<section class="mt-12 w-3/4 text-base font-normal leading-relaxed text-neutral-500 sm:max-w-md">
 	<p>This website was designed and developed by IncogNEET in Japan.</p>
 	<p class="mt-4">
-		It is built using <a href="https://code.visualstudio.com" class="text-blue-500 hover:underline"
-			>VS Code</a
-		>
-		with <a href="https://kit.svelte.dev" class="text-blue-500 hover:underline">SvelteKit</a> as the
-		framework and
-		<a href="https://tailwindcss.com" class="text-blue-500 hover:underline">TailwindCSS</a>
-		as the front end, and deployed using
+		It is developed with
+		<a href="https://kit.svelte.dev" class="text-blue-500 hover:underline">SvelteKit</a>
+		and
+		<a href="https://tailwindcss.com" class="text-blue-500 hover:underline">TailwindCSS</a>, and
+		deployed using
 		<a href="https://vercel.com" class="text-blue-500 hover:underline">Vercel</a>.
 	</p>
 	<p class="mt-4">
@@ -50,4 +50,4 @@
 		class="absolute inset-0 z-0 rounded-3xl bg-gradient-to-r from-cyan-500 to-fuchsia-500 opacity-75 blur-xl"
 	/>
 </div>
-<p class="mt-4 mb-12">❤️</p>
+<p class="mt-4 mb-12 text-neutral-500">© 2023 IncogNEET</p>
