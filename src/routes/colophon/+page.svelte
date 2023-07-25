@@ -21,7 +21,7 @@
 	<h2 class="text-base font-medium leading-relaxed">Colophon</h2>
 
 	<section class="mt-12 w-3/4 text-base font-normal leading-relaxed text-neutral-500 sm:max-w-md">
-		<p>This website was designed and developed by IncogNEET in Japan.</p>
+		<p>This website was designed and developed by CheeseGrater in Japan.</p>
 		<p class="mt-4">
 			It is developed with
 			<a href="https://kit.svelte.dev" class="text-blue-500 hover:underline">SvelteKit</a>
@@ -41,7 +41,7 @@
 		</p>
 		<p class="mt-4">
 			The source code can be found in this <a
-				href="https://github.com/IncogNEET/StopWatch"
+				href="https://github.com/CheeseGrater-svg/StopWatch"
 				class="text-blue-500 hover:underline">GitHub repository</a
 			>.
 		</p>
@@ -54,5 +54,5 @@
 			class="absolute inset-0 z-0 rounded-3xl bg-gradient-to-r from-cyan-500 to-fuchsia-500 opacity-75 blur-xl"
 		/>
 	</div>
-	<p class="mt-6 mb-12 text-neutral-500">© 2023 IncogNEET</p>
+	<p class="mt-6 mb-12 text-neutral-500">© 2023 CheeseGrater</p>
 </div>

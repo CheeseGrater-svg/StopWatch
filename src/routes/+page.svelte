@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { fade } from "svelte/transition";
+	import { fade } from 'svelte/transition';
 
 	import icon from '$lib/assets/stopwatch.png';
 
@@ -66,10 +66,10 @@
 			class="absolute inset-0 z-0 rounded-3xl bg-gradient-to-r from-cyan-500 to-fuchsia-500 opacity-50 blur-xl"
 		/>
 	</div>
-	
+
 	<h1 class="mt-6 text-center text-5xl font-black leading-tight">StopWatch</h1>
 	<h2 class="text-base font-medium leading-relaxed">Coolest Web Stopwatch</h2>
-	
+
 	<div class="relative mt-16">
 		{#if state === STATE.NEW}
 			<button
@@ -93,7 +93,7 @@
 			class="absolute inset-0 z-0 rounded-3xl bg-gradient-to-r from-cyan-500 to-fuchsia-500 opacity-75 blur-xl"
 		/>
 	</div>
-	
+
 	<div class="mt-8 flex w-3/4 max-w-sm justify-between md:min-w-[720px] md:max-w-screen-md">
 		<div class="flex flex-col items-center">
 			<div
@@ -128,17 +128,19 @@
 			<h2 class="text-base font-medium leading-relaxed">MS</h2>
 		</div>
 	</div>
-	
+
 	{#if state === STATE.RUNNING || state === STATE.PAUSED}
 		<button
 			class="mt-8 w-40 rounded-lg border border-neutral-700 bg-black py-1 text-base font-bold leading-relaxed text-neutral-700 transition hover:border-white hover:text-white"
 			on:click={reset}>Reset</button
 		>
 	{/if}
-	
+
 	<p class="mt-24 mb-12 text-center font-normal text-neutral-500">
-		© 2023 IncogNEET<br />
-		<a href="https://github.com/IncogNEET/StopWatch" class="text-blue-500 hover:underline">GitHub</a>
+		© 2023 CheeseGrater<br />
+		<a href="https://github.com/CheeseGrater-svg/StopWatch" class="text-blue-500 hover:underline"
+			>GitHub</a
+		>
 		| <a href="/colophon" class="text-blue-500 hover:underline">Colophon</a>
 	</p>
 </div>
